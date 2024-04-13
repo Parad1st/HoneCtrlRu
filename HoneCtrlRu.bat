@@ -51,24 +51,24 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
-echo %COL%[91m  ВНИМАНИЕ:
-echo %COL%[37m  Пожалуйста, обратите внимание, что мы не можем гарантировать повышение FPS за счет применения наших оптимизаций, каждая система + конфигурация отличается.
+echo %COL%[91m  тАЪ┬Н╦Ж┼ТтВм┬Н╦ЖтАж:
+echo %COL%[37m  ┬П┬о┬ж┬а┬л├г┬й├б├в┬а, ┬о┬б├а┬а├в┬и├в┬е ┬в┬н┬и┬м┬а┬н┬и┬е, ├з├в┬о ┬м├л ┬н┬е ┬м┬о┬ж┬е┬м ┬г┬а├а┬а┬н├в┬и├а┬о┬в┬а├в├м ┬п┬о┬в├л├и┬е┬н┬и┬е FPS ┬з┬а ├б├з┬е├в ┬п├а┬и┬м┬е┬н┬е┬н┬и├п ┬н┬а├и┬и├е ┬о┬п├в┬и┬м┬и┬з┬а├ж┬и┬й, ┬к┬а┬ж┬д┬а├п ├б┬и├б├в┬е┬м┬а + ┬к┬о┬н├д┬и┬г├г├а┬а├ж┬и├п ┬о├в┬л┬и├з┬а┬е├в├б├п.
 echo.
-echo     %COL%[33m1.%COL%[37m Все делается "на свой страх и риск", мы %COL%[91mНЕ НЕСЁМ ОТВЕТСТВЕННОСТИ%COL%[37m если вы каким-либо образом повредите свою систему
-echo        (например, несоблюдение требований об отказе от ответственности).
+echo     %COL%[33m1.%COL%[37m тАЪ├б┬е ┬д┬е┬л┬а┬е├в├б├п "┬н┬а ├б┬в┬о┬й ├б├в├а┬а├е ┬и ├а┬и├б┬к", ┬м├л %COL%[91m┬НтАж ┬НтАжтАШ├░┼Т ┼╜тАЩтАЪтАжтАЩтАШтАЩтАЪтАж┬Н┬Н┼╜тАШтАЩ╦Ж%COL%[37m ┬е├б┬л┬и ┬в├л ┬к┬а┬к┬и┬м-┬л┬и┬б┬о ┬о┬б├а┬а┬з┬о┬м ┬п┬о┬в├а┬е┬д┬и├в┬е ├б┬в┬о├о ├б┬и├б├в┬е┬м├г
+echo        (┬н┬а┬п├а┬и┬м┬е├а, ┬н┬е├б┬о┬б┬л├о┬д┬е┬н┬и┬е ├в├а┬е┬б┬о┬в┬а┬н┬и┬й ┬о┬б ┬о├в┬к┬а┬з┬е ┬о├в ┬о├в┬в┬е├в├б├в┬в┬е┬н┬н┬о├б├в┬и).
 echo.
-echo     %COL%[33m2.%COL%[37m Если вы не знаете, что такое настройка, не используйте ее и обратитесь в нашу службу поддержки, чтобы получить дополнительную помощь.
+echo     %COL%[33m2.%COL%[37m тАж├б┬л┬и ┬в├л ┬н┬е ┬з┬н┬а┬е├в┬е, ├з├в┬о ├в┬а┬к┬о┬е ┬н┬а├б├в├а┬о┬й┬к┬а, ┬н┬е ┬и├б┬п┬о┬л├м┬з├г┬й├в┬е ┬е┬е ┬и ┬о┬б├а┬а├в┬и├в┬е├б├м ┬в ┬н┬а├и├г ├б┬л├г┬ж┬б├г ┬п┬о┬д┬д┬е├а┬ж┬к┬и, ├з├в┬о┬б├л ┬п┬о┬л├г├з┬и├в├м ┬д┬о┬п┬о┬л┬н┬и├в┬е┬л├м┬н├г├о ┬п┬о┬м┬о├й├м.
 echo.
-echo     %COL%[33m3.%COL%[37m Несмотря на то, что у нас есть функция автоматической точки восстановления, мы настоятельно рекомендуем создать её вручную.
+echo     %COL%[33m3.%COL%[37m ┬Н┬е├б┬м┬о├в├а├п ┬н┬а ├в┬о, ├з├в┬о ├г ┬н┬а├б ┬е├б├в├м ├д├г┬н┬к├ж┬и├п ┬а┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬о┬й ├в┬о├з┬к┬и ┬в┬о├б├б├в┬а┬н┬о┬в┬л┬е┬н┬и├п, ┬м├л ┬н┬а├б├в┬о├п├в┬е┬л├м┬н┬о ├а┬е┬к┬о┬м┬е┬н┬д├г┬е┬м ├б┬о┬з┬д┬а├в├м ┬е├▒ ┬в├а├г├з┬н├г├о.
 echo.
-echo   По любым вопросам и / или озабоченностям, пожалуйста, присоединяйтесь к нашему дискорду: discord.gg/hone
+echo   ┬П┬о ┬л├о┬б├л┬м ┬в┬о┬п├а┬о├б┬а┬м ┬и / ┬и┬л┬и ┬о┬з┬а┬б┬о├з┬е┬н┬н┬о├б├в├п┬м, ┬п┬о┬ж┬а┬л├г┬й├б├в┬а, ┬п├а┬и├б┬о┬е┬д┬и┬н├п┬й├в┬е├б├м ┬к ┬н┬а├и┬е┬м├г ┬д┬и├б┬к┬о├а┬д├г: discord.gg/hone
 echo.
-echo   Введите "I agree" без кавычек чтобы продолжить:
+echo   тАЪ┬в┬е┬д┬и├в┬е "I agree" ┬б┬е┬з ┬к┬а┬в├л├з┬е┬к ├з├в┬о┬б├л ┬п├а┬о┬д┬о┬л┬ж┬и├в├м:
 echo.
 echo.
 echo.
@@ -88,34 +88,34 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
 echo.
 echo.
 echo.
-echo                                           %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m Оптимизация        %COL%[33m[%COL%[37m 2 %COL%[33m]%COL%[37m Игровые настройки
+echo                                           %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m ┼╜┬п├в┬и┬м┬и┬з┬а├ж┬и├п        %COL%[33m[%COL%[37m 2 %COL%[33m]%COL%[37m ╦Ж┬г├а┬о┬в├л┬е ┬н┬а├б├в├а┬о┬й┬к┬и
 echo.
 echo.
 echo.
 echo.
-echo                                     %COL%[33m[%COL%[37m 3 %COL%[33m]%COL%[37m Медия         %COL%[33m[%COL%[37m 4 %COL%[33m]%COL%[90m Приватность        %COL%[33m[%COL%[37m 5 %COL%[33m]%COL%[90m Украшения
+echo                                     %COL%[33m[%COL%[37m 3 %COL%[33m]%COL%[37m ┼Т┬е┬д┬и├п         %COL%[33m[%COL%[37m 4 %COL%[33m]%COL%[90m ┬П├а┬и┬в┬а├в┬н┬о├б├в├м        %COL%[33m[%COL%[37m 5 %COL%[33m]%COL%[90m тАЬ┬к├а┬а├и┬е┬н┬и├п
 echo.
 echo.
 echo.
 echo.
-echo                                               %COL%[33m[%COL%[37m 6 %COL%[33m]%COL%[37m Дополнительно           %COL%[33m[%COL%[37m 7 %COL%[33m]%COL%[37m Больше
+echo                                               %COL%[33m[%COL%[37m 6 %COL%[33m]%COL%[37m тАЮ┬о┬п┬о┬л┬н┬и├в┬е┬л├м┬н┬о           %COL%[33m[%COL%[37m 7 %COL%[33m]%COL%[37m ┬Б┬о┬л├м├и┬е
 echo.
 echo.
 echo.
 echo.
 echo.
 echo.
-echo                                                            %COL%[31m[ X чтобы закрыть ]%COL%[37m
+echo                                                            %COL%[31m[ X ├з├в┬о┬б├л ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-%SYSTEMROOT%\System32\choice.exe /c:1234567XD /n /m "%DEL%                                        Выберите соответствующий номер для опций выше > "
+%SYSTEMROOT%\System32\choice.exe /c:1234567XD /n /m "%DEL%                                        тАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 set choice=%errorlevel%
 if "%choice%"=="1" set PG=TweaksPG1 & goto Tweaks
 if "%choice%"=="2" goto GameSettings
@@ -149,18 +149,18 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
 echo.
-echo                                             %COL%[31m Эта функция еще не завершена, но скоро появится :)
+echo                                             %COL%[31m ┬Э├в┬а ├д├г┬н┬к├ж┬и├п ┬е├й┬е ┬н┬е ┬з┬а┬в┬е├а├и┬е┬н┬а, ┬н┬о ├б┬к┬о├а┬о ┬п┬о├п┬в┬и├в├б├п :)
 echo.
 echo.
 echo.
 echo.
-echo                                              %COL%[97m[ Нажмите любую клавишу, чтобы вернуться назад ]%COL%[37m
+echo                                              %COL%[97m[ ┬Н┬а┬ж┬м┬и├в┬е ┬л├о┬б├г├о ┬к┬л┬а┬в┬и├и├г, ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ┬н┬а┬з┬а┬д ]%COL%[37m
 pause >nul
 goto :eof
 
@@ -252,35 +252,35 @@ cls
 echo.
 echo                                                                                                                        %COL%[36mPage 1/2
 call :HoneTitle
-echo                                                               %COL%[1;4;34mТвики%COL%[0m
+echo                                                               %COL%[1;4;34mтАЩ┬в┬и┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m Power Plan %PWROF%                 %COL%[33m[%COL%[37m 2 %COL%[33m]%COL%[37m SvcHostSplitThreshold %MEMOF%      %COL%[33m[%COL%[37m 3 %COL%[33m]%COL%[37m CSRSS High Priority %CRSOF%
-echo              %COL%[90mПлан питания для пк, не оч           %COL%[90mИзменяет порог разделения для        %COL%[90mCSRSS отвечает за ввод с помощью мыши
-echo              %COL%[90mдля батареи ноутука.                 %COL%[90mхост службы вашей RAM.               %COL%[90mустановите, чтобы снизить Input Lag.
+echo              %COL%[90m┬П┬л┬а┬н ┬п┬и├в┬а┬н┬и├п ┬д┬л├п ┬п┬к, ┬н┬е ┬о├з           %COL%[90m╦Ж┬з┬м┬е┬н├п┬е├в ┬п┬о├а┬о┬г ├а┬а┬з┬д┬е┬л┬е┬н┬и├п ┬д┬л├п        %COL%[90mCSRSS ┬о├в┬в┬е├з┬а┬е├в ┬з┬а ┬в┬в┬о┬д ├б ┬п┬о┬м┬о├й├м├о ┬м├л├и┬и
+echo              %COL%[90m┬д┬л├п ┬б┬а├в┬а├а┬е┬и ┬н┬о├г├в├г┬к┬а.                 %COL%[90m├е┬о├б├в ├б┬л├г┬ж┬б├л ┬в┬а├и┬е┬й RAM.               %COL%[90m├г├б├в┬а┬н┬о┬в┬и├в┬е, ├з├в┬о┬б├л ├б┬н┬и┬з┬и├в├м Input Lag.
 echo.
 echo              %COL%[33m[%COL%[37m 4 %COL%[33m]%COL%[37m Timer Resolution %TMROF%           %COL%[33m[%COL%[37m 5 %COL%[33m]%COL%[37m MSI Mode %MSIOF%                   %COL%[33m[%COL%[37m 6 %COL%[33m]%COL%[37m Affinity %AFFOF%
-echo              %COL%[90mЭта настройка меняет скорость        %COL%[90mВключает режим MSI для gpu и         %COL%[90mЭтот твик распределит устройства
-echo              %COL%[90mобновления вашего процессора.        %COL%[90mинтернет адаптера.                   %COL%[90mпо нескольким ядрам процессора.
+echo              %COL%[90m┬Э├в┬а ┬н┬а├б├в├а┬о┬й┬к┬а ┬м┬е┬н├п┬е├в ├б┬к┬о├а┬о├б├в├м        %COL%[90mтАЪ┬к┬л├о├з┬а┬е├в ├а┬е┬ж┬и┬м MSI ┬д┬л├п gpu ┬и         %COL%[90m┬Э├в┬о├в ├в┬в┬и┬к ├а┬а├б┬п├а┬е┬д┬е┬л┬и├в ├г├б├в├а┬о┬й├б├в┬в┬а
+echo              %COL%[90m┬о┬б┬н┬о┬в┬л┬е┬н┬и├п ┬в┬а├и┬е┬г┬о ┬п├а┬о├ж┬е├б├б┬о├а┬а.        %COL%[90m┬и┬н├в┬е├а┬н┬е├в ┬а┬д┬а┬п├в┬е├а┬а.                   %COL%[90m┬п┬о ┬н┬е├б┬к┬о┬л├м┬к┬и┬м ├п┬д├а┬а┬м ┬п├а┬о├ж┬е├б├б┬о├а┬а.
 echo.
 echo              %COL%[33m[%COL%[37m 7 %COL%[33m]%COL%[37m W32 Priority Seperation %BLANK%    %COL%[33m[%COL%[37m 8 %COL%[33m]%COL%[37m Memory Optimization %ME2OF%        %COL%[33m[%COL%[37m 9 %COL%[33m]%COL%[37m Mouse Fix %MOUOF%
-echo              %COL%[90mОптимизирует приоритет использования %COL%[90mОптимизирует ваш fsutil, настройки   %COL%[90mУбирает ускорение мыши, что
-echo              %COL%[90mзапущенных служб.                    %COL%[90mзапуска Windows и многое другое.     %COL%[90mделает наводку в играх лучше.
+echo              %COL%[90m┼╜┬п├в┬и┬м┬и┬з┬и├а├г┬е├в ┬п├а┬и┬о├а┬и├в┬е├в ┬и├б┬п┬о┬л├м┬з┬о┬в┬а┬н┬и├п %COL%[90m┼╜┬п├в┬и┬м┬и┬з┬и├а├г┬е├в ┬в┬а├и fsutil, ┬н┬а├б├в├а┬о┬й┬к┬и   %COL%[90mтАЬ┬б┬и├а┬а┬е├в ├г├б┬к┬о├а┬е┬н┬и┬е ┬м├л├и┬и, ├з├в┬о
+echo              %COL%[90m┬з┬а┬п├г├й┬е┬н┬н├л├е ├б┬л├г┬ж┬б.                    %COL%[90m┬з┬а┬п├г├б┬к┬а Windows ┬и ┬м┬н┬о┬г┬о┬е ┬д├а├г┬г┬о┬е.     %COL%[90m┬д┬е┬л┬а┬е├в ┬н┬а┬в┬о┬д┬к├г ┬в ┬и┬г├а┬а├е ┬л├г├з├и┬е.
 echo.
-echo                                                            %COL%[1;4;34mNvidia Твики%COL%[0m
+echo                                                            %COL%[1;4;34mNvidia тАЩ┬в┬и┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 10 %COL%[33m]%COL%[37m Disable HDCP %HDCOF%              %COL%[33m[%COL%[37m 11 %COL%[33m]%COL%[37m Disable Preemption %CMAOF%        %COL%[33m[%COL%[37m 12 %COL%[33m]%COL%[37m ProfileInspector %NPIOF%
-echo              %COL%[90mОтключает защиты копированя          %COL%[90mОтключить запросы на вытеснение     %COL%[90mНастроит Nvidia control panel
-echo              %COL%[90mнелегального контента.               %COL%[90mиз планировщика GPU.                %COL%[90mи изменит скрытые настройки.
+echo              %COL%[90m┼╜├в┬к┬л├о├з┬а┬е├в ┬з┬а├й┬и├в├л ┬к┬о┬п┬и├а┬о┬в┬а┬н├п          %COL%[90m┼╜├в┬к┬л├о├з┬и├в├м ┬з┬а┬п├а┬о├б├л ┬н┬а ┬в├л├в┬е├б┬н┬е┬н┬и┬е     %COL%[90m┬Н┬а├б├в├а┬о┬и├в Nvidia control panel
+echo              %COL%[90m┬н┬е┬л┬е┬г┬а┬л├м┬н┬о┬г┬о ┬к┬о┬н├в┬е┬н├в┬а.               %COL%[90m┬и┬з ┬п┬л┬а┬н┬и├а┬о┬в├й┬и┬к┬а GPU.                %COL%[90m┬и ┬и┬з┬м┬е┬н┬и├в ├б┬к├а├л├в├л┬е ┬н┬а├б├в├а┬о┬й┬к┬и.
 echo.
 echo              %COL%[33m[%COL%[37m 13 %COL%[33m]%COL%[37m Disable Nvidia Telemetry %NVTOF%  %COL%[33m[%COL%[37m 14 %COL%[33m]%COL%[37m Nvidia Tweaks %NVIOF%             %COL%[33m[%COL%[37m 15 %COL%[33m]%COL%[37m Disable Write Combining %DWCOF%
-echo              %COL%[90mУдалит телеметрию Nvidia             %COL%[90mРазличные важные настройки          %COL%[90mПредотвращает объединение и
-echo              %COL%[90mиз вашего пк и драйвера.             %COL%[90mдля видеокарт Nvidia.               %COL%[90хранение временных файлов.
+echo              %COL%[90mтАЬ┬д┬а┬л┬и├в ├в┬е┬л┬е┬м┬е├в├а┬и├о Nvidia             %COL%[90m┬Р┬а┬з┬л┬и├з┬н├л┬е ┬в┬а┬ж┬н├л┬е ┬н┬а├б├в├а┬о┬й┬к┬и          %COL%[90m┬П├а┬е┬д┬о├в┬в├а┬а├й┬а┬е├в ┬о┬б├к┬е┬д┬и┬н┬е┬н┬и┬е ┬и
+echo              %COL%[90m┬и┬з ┬в┬а├и┬е┬г┬о ┬п┬к ┬и ┬д├а┬а┬й┬в┬е├а┬а.             %COL%[90m┬д┬л├п ┬в┬и┬д┬е┬о┬к┬а├а├в Nvidia.               %COL%[90├е├а┬а┬н┬е┬н┬и┬е ┬в├а┬е┬м┬е┬н┬н├л├е ├д┬а┬й┬л┬о┬в.
 echo.
 echo.
 echo.
-echo                              %COL%[90m[ B чтобы вернуться ]         %COL%[31m[ X чтобы закрыть ]         %COL%[36m[ N - 2 страница ]
+echo                              %COL%[90m[ B ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ]         %COL%[31m[ X ├з├в┬о┬б├л ┬з┬а┬к├а├л├в├м ]         %COL%[36m[ N - 2 ├б├в├а┬а┬н┬и├ж┬а ]
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto PowerPlan
 if /i "%choice%"=="2" goto ServicesOptimization
 if /i "%choice%"=="3" goto CSRSS
@@ -290,7 +290,7 @@ if /i "%choice%"=="6" goto Affinity
 if /i "%choice%"=="7" goto W32PrioSep
 if /i "%choice%"=="8" goto MemOptimization
 if /i "%choice%"=="9" goto Mouse
-echo %NPIOF% | find "N/A" >nul && if "%choice%" geq "10" if "%choice%" leq "15" call :HoneCtrlError "Вы не имеете NVIDIA GPU" && goto Tweaks
+echo %NPIOF% | find "N/A" >nul && if "%choice%" geq "10" if "%choice%" leq "15" call :HoneCtrlError "тАЪ├л ┬н┬е ┬и┬м┬е┬е├в┬е NVIDIA GPU" && goto Tweaks
 if /i "%choice%"=="10" goto DisableHDCP
 if /i "%choice%"=="11" goto DisablePreemtion
 if /i "%choice%"=="12" goto ProfileInspector
@@ -307,34 +307,34 @@ cls
 echo.
 echo                                                                                                                        %COL%[36mPage 2/2
 call :HoneTitle
-echo                                                           %COL%[1;4;34mИнтенет твики%COL%[0m
+echo                                                           %COL%[1;4;34m╦Ж┬н├в┬е┬н┬е├в ├в┬в┬и┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m Optimize TCP/IP %TCPOF%            %COL%[33m[%COL%[37m 2 %COL%[33m]%COL%[37m Optimize NIC %NICOF%               %COL%[33m[%COL%[37m 3 %COL%[33m]%COL%[37m Optimize Netsh %NETOF%
-echo              %COL%[90mИзменяет ваш интернет-протокол       %COL%[90mОптимизирует настройки интернета     %COL%[90mЭтот твик настраивает конфиг
-echo              %COL%[91mНе используйте, если у впс Wi-Fi     %COL%[91mНе используйте, если у впс Wi-Fi     %COL%[90mинтернета твоего ПК.
+echo              %COL%[90m╦Ж┬з┬м┬е┬н├п┬е├в ┬в┬а├и ┬и┬н├в┬е├а┬н┬е├в-┬п├а┬о├в┬о┬к┬о┬л       %COL%[90m┼╜┬п├в┬и┬м┬и┬з┬и├а├г┬е├в ┬н┬а├б├в├а┬о┬й┬к┬и ┬и┬н├в┬е├а┬н┬е├в┬а     %COL%[90m┬Э├в┬о├в ├в┬в┬и┬к ┬н┬а├б├в├а┬а┬и┬в┬а┬е├в ┬к┬о┬н├д┬и┬г
+echo              %COL%[91m┬Н┬е ┬и├б┬п┬о┬л├м┬з├г┬й├в┬е, ┬е├б┬л┬и ├г ┬в┬п├б Wi-Fi     %COL%[91m┬Н┬е ┬и├б┬п┬о┬л├м┬з├г┬й├в┬е, ┬е├б┬л┬и ├г ┬в┬п├б Wi-Fi     %COL%[90m┬и┬н├в┬е├а┬н┬е├в┬а ├в┬в┬о┬е┬г┬о ┬П┼а.
 echo.
 echo                                                             %COL%[1;4;34mGPU ^& CPU%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 4 %COL%[33m]%COL%[37m All GPU Tweaks %ALLOF%             %COL%[33m[%COL%[37m 5 %COL%[33m]%COL%[37m Optimize Intel iGPU %DSSOF%        %COL%[33m[%COL%[37m 6 %COL%[33m]%COL%[37m AMD GPU Tweaks %AMDOF%
-echo              %COL%[90mРазличные важные настройки для всех  %COL%[90mУвеличение выделенной видеопамяти    %COL%[90mНастроить AMD GPU для FPS.
-echo              %COL%[90mGPU брендов и производителей.        %COL%[90mна Intel iGPU.                       %COL%[91mТолько для видеокарт AMD
+echo              %COL%[90m┬Р┬а┬з┬л┬и├з┬н├л┬е ┬в┬а┬ж┬н├л┬е ┬н┬а├б├в├а┬о┬й┬к┬и ┬д┬л├п ┬в├б┬е├е  %COL%[90mтАЬ┬в┬е┬л┬и├з┬е┬н┬и┬е ┬в├л┬д┬е┬л┬е┬н┬н┬о┬й ┬в┬и┬д┬е┬о┬п┬а┬м├п├в┬и    %COL%[90m┬Н┬а├б├в├а┬о┬и├в├м AMD GPU ┬д┬л├п FPS.
+echo              %COL%[90mGPU ┬б├а┬е┬н┬д┬о┬в ┬и ┬п├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л┬е┬й.        %COL%[90m┬н┬а Intel iGPU.                       %COL%[91mтАЩ┬о┬л├м┬к┬о ┬д┬л├п ┬в┬и┬д┬е┬о┬к┬а├а├в AMD
 echo.                            
 echo.
-echo                                                        %COL%[1;4;34mРазличные настройки%COL%[0m
+echo                                                        %COL%[1;4;34m┬Р┬а┬з┬л┬и├з┬н├л┬е ┬н┬а├б├в├а┬о┬й┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 7 %COL%[33m]%COL%[37m Reduce Audio Latency %AUDOF%       %COL%[33m[%COL%[37m 8 %COL%[33m]%COL%[37m Debloat %COL%[93mN/A                    %COL%[33m[%COL%[37m 9 %COL%[33m]%COL%[37m Disable Mitigations %MITOF%
-echo              %COL%[90mУменьшает задержку звука       	  %COL%[91mСкоро :)		               %COL%[90mОтключите защиту от атак на память которые
-echo              %COL%[91mЧаще всего повышает Input Lag!	  %COL%[90m				       %COL%[90mпотребляют производительность.
+echo              %COL%[90mтАЬ┬м┬е┬н├м├и┬а┬е├в ┬з┬а┬д┬е├а┬ж┬к├г ┬з┬в├г┬к┬а       	  %COL%[91mтАШ┬к┬о├а┬о :)		               %COL%[90m┼╜├в┬к┬л├о├з┬и├в┬е ┬з┬а├й┬и├в├г ┬о├в ┬а├в┬а┬к ┬н┬а ┬п┬а┬м├п├в├м ┬к┬о├в┬о├а├л┬е
+echo              %COL%[91mтАФ┬а├й┬е ┬в├б┬е┬г┬о ┬п┬о┬в├л├и┬а┬е├в Input Lag!	  %COL%[90m				       %COL%[90m┬п┬о├в├а┬е┬б┬л├п├о├в ┬п├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л├м┬н┬о├б├в├м.
 echo.
 echo              %COL%[33m[%COL%[37m 10 %COL%[33m]%COL%[37m Cleaner %BLANK%                   %COL%[33m[%COL%[37m 11 %COL%[33m]%COL%[37m Game-Booster %BLANK%              %COL%[33m[%COL%[37m 12 %COL%[33m]%COL%[37m Soft Restart %BLANK%
-echo              %COL%[90mОчищает временные файлы и папки      %COL%[90mСтавит GPU ^& CPU на макс скорость   %COL%[90mЕсли ваш компьютер много работал,
-echo              %COL%[90mочишает корзину.                     %COL%[90mОтключает полноэкранную оптимизацию  %COL%[90mиспользуйте чтобы ускорить.
+echo              %COL%[90m┼╜├з┬и├й┬а┬е├в ┬в├а┬е┬м┬е┬н┬н├л┬е ├д┬а┬й┬л├л ┬и ┬п┬а┬п┬к┬и      %COL%[90mтАШ├в┬а┬в┬и├в GPU ^& CPU ┬н┬а ┬м┬а┬к├б ├б┬к┬о├а┬о├б├в├м   %COL%[90mтАж├б┬л┬и ┬в┬а├и ┬к┬о┬м┬п├м├о├в┬е├а ┬м┬н┬о┬г┬о ├а┬а┬б┬о├в┬а┬л,
+echo              %COL%[90m┬о├з┬и├и┬а┬е├в ┬к┬о├а┬з┬и┬н├г.                     %COL%[90m┼╜├в┬к┬л├о├з┬а┬е├в ┬п┬о┬л┬н┬о├н┬к├а┬а┬н┬н├г├о ┬о┬п├в┬и┬м┬и┬з┬а├ж┬и├о  %COL%[90m┬и├б┬п┬о┬л├м┬з├г┬й├в┬е ├з├в┬о┬б├л ├г├б┬к┬о├а┬и├в├м.
 echo.
 echo.
 echo.
-echo                              %COL%[90m[ B чтобы вернуться ]         %COL%[31m[ X чтобы закрыть ]         %COL%[36m[ N - 1 страница ]
+echo                              %COL%[90m[ B ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ]         %COL%[31m[ X ├з├в┬о┬б├л ┬з┬а┬к├а├л├в├м ]         %COL%[36m[ N - 1 ├б├в├а┬а┬н┬и├ж┬а ]
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto TCPIP
 if /i "%choice%"=="2" goto NIC
 if /i "%choice%"=="3" goto Netsh
@@ -353,7 +353,7 @@ if /i "%choice%"=="N" (set "PG=TweaksPG1") & goto TweaksPG1
 goto TweaksPG2
 
 :PowerPlan
-echo %PWROF% | find "N/A" >nul && call :HoneCtrlError "Этот план питания не рекомендуется для батареи ноутбука." && goto Tweaks
+echo %PWROF% | find "N/A" >nul && call :HoneCtrlError "┬Э├в┬о├в ┬п┬л┬а┬н ┬п┬и├в┬а┬н┬и├п ┬н┬е ├а┬е┬к┬о┬м┬е┬н┬д├г┬е├в├б├п ┬д┬л├п ┬б┬а├в┬а├а┬е┬и ┬н┬о├г├в┬б├г┬к┬а." && goto Tweaks
 if "%PWROF%" == "%COL%[91mOFF" (
 	curl -g -k -L -# -o "%SYSTEMDRIVE%\Hone\Resources\HoneV2.pow" "https://github.com/auraside/HoneCtrl/raw/main/Files/HoneV2.pow"
 	powercfg /d 44444444-4444-4444-4444-444444444449
@@ -567,8 +567,8 @@ echo.
 echo.
 echo.
 echo                    %COL%[33m[ %COL%[37m1 %COL%[33m] %COL%[37m26 Hex                                                   %COL%[33m[ %COL%[37m2 %COL%[33m] %COL%[37m28 Hex
-echo                    %COL%[90mПо умолчанию                                                   %COL%[90mМожет быть лучше
-echo                    %COL%[90mКороткий, Переменный, высокий приоритет.                       %COL%[90mКороткий, Пофикшенный, без приоритета.
+echo                    %COL%[90m┬П┬о ├г┬м┬о┬л├з┬а┬н┬и├о                                                   %COL%[90m┼Т┬о┬ж┬е├в ┬б├л├в├м ┬л├г├з├и┬е
+echo                    %COL%[90m┼а┬о├а┬о├в┬к┬и┬й, ┬П┬е├а┬е┬м┬е┬н┬н├л┬й, ┬в├л├б┬о┬к┬и┬й ┬п├а┬и┬о├а┬и├в┬е├в.                       %COL%[90m┼а┬о├а┬о├в┬к┬и┬й, ┬П┬о├д┬и┬к├и┬е┬н┬н├л┬й, ┬б┬е┬з ┬п├а┬и┬о├а┬и├в┬е├в┬а.
 echo.
 echo.
 echo.
@@ -579,7 +579,7 @@ echo.
 echo.
 echo.
 echo.
-echo                                                    [ нажмите X чтобы вернуться ]
+echo                                                    [ ┬н┬а┬ж┬м┬и├в┬е X ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ]
 echo.
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:12X /n /m "%DEL%                                                               >:"
@@ -907,17 +907,17 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
-echo %COL%[91m  ВНИМАНИЕ:
-echo %COL%[91m  Настройка предназначена только для пользователей Ethernet. Если вы подключены к Wi-Fi, не запускайте эту настройку.
+echo %COL%[91m  тАЪ┬Н╦Ж┼ТтВм┬Н╦ЖтАж:
+echo %COL%[91m  ┬Н┬а├б├в├а┬о┬й┬к┬а ┬п├а┬е┬д┬н┬а┬з┬н┬а├з┬е┬н┬а ├в┬о┬л├м┬к┬о ┬д┬л├п ┬п┬о┬л├м┬з┬о┬в┬а├в┬е┬л┬е┬й Ethernet. тАж├б┬л┬и ┬в├л ┬п┬о┬д┬к┬л├о├з┬е┬н├л ┬к Wi-Fi, ┬н┬е ┬з┬а┬п├г├б┬к┬а┬й├в┬е ├н├в├г ┬н┬а├б├в├а┬о┬й┬к├г.
 echo.
-echo   %COL%[37mПо любым вопросам и/или проблемам присоединяйтесь к нашему дискорду: discord.gg/hone
+echo   %COL%[37m┬П┬о ┬л├о┬б├л┬м ┬в┬о┬п├а┬о├б┬а┬м ┬и/┬и┬л┬и ┬п├а┬о┬б┬л┬е┬м┬а┬м ┬п├а┬и├б┬о┬е┬д┬и┬н├п┬й├в┬е├б├м ┬к ┬н┬а├и┬е┬м├г ┬д┬и├б┬к┬о├а┬д├г: discord.gg/hone
 echo.
-echo   %COL%[37mПожалуйста введите "I understand" чтобы продолжить:
+echo   %COL%[37m┬П┬о┬ж┬а┬л├г┬й├б├в┬а ┬в┬в┬е┬д┬и├в┬е "I understand" ├з├в┬о┬б├л ┬п├а┬о┬д┬о┬л┬ж┬и├в├м:
 echo.
 echo.
 echo.
@@ -1010,17 +1010,17 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
-echo %COL%[91m  ВНИМАНИЕ:
-echo %COL%[91m  Настройка предназначена только для пользователей Ethernet. Если вы подключены к Wi-Fi, не запускайте эту настройку.
+echo %COL%[91m  тАЪ┬Н╦Ж┼ТтВм┬Н╦ЖтАж:
+echo %COL%[91m  ┬Н┬а├б├в├а┬о┬й┬к┬а ┬п├а┬е┬д┬н┬а┬з┬н┬а├з┬е┬н┬а ├в┬о┬л├м┬к┬о ┬д┬л├п ┬п┬о┬л├м┬з┬о┬в┬а├в┬е┬л┬е┬й Ethernet. тАж├б┬л┬и ┬в├л ┬п┬о┬д┬к┬л├о├з┬е┬н├л ┬к Wi-Fi, ┬н┬е ┬з┬а┬п├г├б┬к┬а┬й├в┬е ├н├в├г ┬н┬а├б├в├а┬о┬й┬к├г.
 echo.
-echo   %COL%[37mПо любым вопросам и/или проблемам присоединяйтесь к нашему дискорду: discord.gg/hone
+echo   %COL%[37m┬П┬о ┬л├о┬б├л┬м ┬в┬о┬п├а┬о├б┬а┬м ┬и/┬и┬л┬и ┬п├а┬о┬б┬л┬е┬м┬а┬м ┬п├а┬и├б┬о┬е┬д┬и┬н├п┬й├в┬е├б├м ┬к ┬н┬а├и┬е┬м├г ┬д┬и├б┬к┬о├а┬д├г: discord.gg/hone
 echo.
-echo   %COL%[37mПожалуйста введите "I understand" чтобы продолжить:
+echo   %COL%[37m┬П┬о┬ж┬а┬л├г┬й├б├в┬а ┬в┬в┬е┬д┬и├в┬е "I understand" ├з├в┬о┬б├л ┬п├а┬о┬д┬о┬л┬ж┬и├в├м:
 echo.
 echo.
 echo.
@@ -1139,7 +1139,7 @@ if "%ALLOF%" == "%COL%[91mOFF" (
 goto Tweaks
 
 :Intel
-echo %DSSOF% | find "N/A" >nul && call :HoneCtrlError "Вы не имеете intel GPU" && goto Tweaks
+echo %DSSOF% | find "N/A" >nul && call :HoneCtrlError "тАЪ├л ┬н┬е ┬и┬м┬е┬е├в┬е intel GPU" && goto Tweaks
 REM DedicatedSegmentSize in Intel iGPU
 if "%DSSOF%" == "%COL%[91mOFF" (
 	reg add "HKLM\SOFTWARE\Intel\GMM" /v "DedicatedSegmentSize" /t REG_DWORD /d "1024" /f
@@ -1149,7 +1149,7 @@ if "%DSSOF%" == "%COL%[91mOFF" (
 goto Tweaks
 
 :AMD
-echo %AMDOF% | find "N/A" >nul && call :HoneCtrlError "Вы не имеете AMD GPU" && goto Tweaks
+echo %AMDOF% | find "N/A" >nul && call :HoneCtrlError "тАЪ├л ┬н┬е ┬и┬м┬е┬е├в┬е AMD GPU" && goto Tweaks
 REM AMD Registry Location
 for /f %%i in ('reg query "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}" /s /v "DriverDesc"^| findstr "HKEY AMD ATI"') do if /i "%%i" neq "DriverDesc" (set "REGPATH_AMD=%%i")
 REM AMD Tweaks
@@ -1282,11 +1282,11 @@ EmptyStandbyList.exe standbylist
 echo.
 echo.
 echo  --------------------------------------------------------------
-echo                      Soft Restart завершён!
+echo                      Soft Restart ┬з┬а┬в┬е├а├и├▒┬н!
 echo  --------------------------------------------------------------
 echo.
 echo.
-echo                           [X] Закрыть
+echo                           [X] тАб┬а┬к├а├л├в├м
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:X /n /m "%DEL%                                >:"
 goto tweaks
@@ -1299,7 +1299,7 @@ call :HoneTitle
 echo.
 echo.
 echo.
-echo                                                               %COL%[34m%COL%[1mИгры%COL%[0m
+echo                                                               %COL%[34m%COL%[1m╦Ж┬г├а├л%COL%[0m
 echo.
 echo                                                         %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m Minecraft
 echo.
@@ -1322,16 +1322,16 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-%SYSTEMROOT%\System32\choice.exe /c:1BX /n /m "%DEL%                                         Выберите соответствующий номер для опций выше > "
+%SYSTEMROOT%\System32\choice.exe /c:1BX /n /m "%DEL%                                         тАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 set choice=%errorlevel%
 if "%choice%"=="1" goto Minecraft
 if "%choice%"=="2" goto MainMenu
 if "%choice%"=="3" exit /b
 
 :Minecraft
-if not exist "%APPDATA%\.minecraft\" call:HoneCtrlError "Не удалость найти установленный Minecraft." & goto GameSettings
+if not exist "%APPDATA%\.minecraft\" call:HoneCtrlError "┬Н┬е ├г┬д┬а┬л┬о├б├в├м ┬н┬а┬й├в┬и ├г├б├в┬а┬н┬о┬в┬л┬е┬н┬н├л┬й Minecraft." & goto GameSettings
 cls
 echo.
 echo.
@@ -1355,7 +1355,7 @@ echo.
 echo.
 echo.
 echo.
-echo                                                      %COL%[1;4;34mВыберит версию Minecraft%COL%[0m
+echo                                                      %COL%[1;4;34mтАЪ├л┬б┬е├а┬и├в ┬в┬е├а├б┬и├о Minecraft%COL%[0m
 echo.
 echo.
 echo.
@@ -1373,9 +1373,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-%SYSTEMROOT%\System32\choice.exe /c:123BX /n /m "%DEL%                                        Выберите соответствующий номер для опций выше > "
+%SYSTEMROOT%\System32\choice.exe /c:123BX /n /m "%DEL%                                        тАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 set choice=%errorlevel%
 if %choice% == 1 goto 1.7.10
 if %choice% == 2 goto 1.8.9
@@ -1637,12 +1637,12 @@ echo.
 echo.
 echo.
 echo.
-echo                                                     %COL%[37m Настройки были применены
+echo                                                     %COL%[37m ┬Н┬а├б├в├а┬о┬й┬к┬и ┬б├л┬л┬и ┬п├а┬и┬м┬е┬н┬е┬н├л
 echo.
 echo.
 echo.
 echo.
-echo                                                            %COL%[90m[ B назад ]%COL%[37m
+echo                                                            %COL%[90m[ B ┬н┬а┬з┬а┬д ]%COL%[37m
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:B /n /m "%DEL%                                                               >:"
 goto GameSettings
@@ -1676,36 +1676,36 @@ echo                     :NMMs-oo+/syy:-     #+#    #+#    #+#   #+#+#    #+#   
 echo                    /NMN+ ``   :ys.      ########     ###    ####    ##########   %COL%[37m###%COL%[33m       ######        ######
 echo                   `NMN:        +.                                                      ##    ###     ##    ###
 echo                   om-                                                                   #######       #######
-echo                    `.                                     %COL%[34m%COL%[1mOBS Настройки%COL%[0m
+echo                    `.                                     %COL%[34m%COL%[1mOBS ┬Н┬а├б├в├а┬о┬й┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m Install/Update OBS             %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m Recording                      %COL%[33m[ %COL%[37m3 %COL%[33m]%COL%[37m Streaming
-echo              %COL%[90mАвтомвтическая установка или         %COL%[90mАвтоматические настройки             %COL%[90mAвтоматические настройки
-echo              %COL%[90mобновление OBS Studio.               %COL%[90mOBS для записи видео.                %COL%[90mOBS для стримов.
+echo              %COL%[90mтВм┬в├в┬о┬м┬в├в┬и├з┬е├б┬к┬а├п ├г├б├в┬а┬н┬о┬в┬к┬а ┬и┬л┬и         %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬и┬е ┬н┬а├б├в├а┬о┬й┬к┬и             %COL%[90mA┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬и┬е ┬н┬а├б├в├а┬о┬й┬к┬и
+echo              %COL%[90m┬о┬б┬н┬о┬в┬л┬е┬н┬и┬е OBS Studio.               %COL%[90mOBS ┬д┬л├п ┬з┬а┬п┬и├б┬и ┬в┬и┬д┬е┬о.                %COL%[90mOBS ┬д┬л├п ├б├в├а┬и┬м┬о┬в.
 echo.
 echo.
-echo                                                           %COL%[34m%COL%[1mFFmpeg Настройки%COL%[0m
+echo                                                           %COL%[34m%COL%[1mFFmpeg ┬Н┬а├б├в├а┬о┬й┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[ %COL%[37m4 %COL%[33m]%COL%[37m Upscale                        %COL%[33m[ %COL%[37m5 %COL%[33m]%COL%[37m Compress                       %COL%[33m[ %COL%[37m6 %COL%[33m]%COL%[37m Preview Lag
-echo              %COL%[90mИзмените масштаб видео для           %COL%[90mУменьшите размер клипов для          %COL%[90mНастройте качество клипов чтобы
-echo              %COL%[90mвысокого битрейта YouTube.           %COL%[90mсоц сетей (Discord, Whatsapp)        %COL%[90m хорошо воспоизводились в Vegas.
+echo              %COL%[90m╦Ж┬з┬м┬е┬н┬и├в┬е ┬м┬а├б├и├в┬а┬б ┬в┬и┬д┬е┬о ┬д┬л├п           %COL%[90mтАЬ┬м┬е┬н├м├и┬и├в┬е ├а┬а┬з┬м┬е├а ┬к┬л┬и┬п┬о┬в ┬д┬л├п          %COL%[90m┬Н┬а├б├в├а┬о┬й├в┬е ┬к┬а├з┬е├б├в┬в┬о ┬к┬л┬и┬п┬о┬в ├з├в┬о┬б├л
+echo              %COL%[90m┬в├л├б┬о┬к┬о┬г┬о ┬б┬и├в├а┬е┬й├в┬а YouTube.           %COL%[90m├б┬о├ж ├б┬е├в┬е┬й (Discord, Whatsapp)        %COL%[90m ├е┬о├а┬о├и┬о ┬в┬о├б┬п┬о┬и┬з┬в┬о┬д┬и┬л┬и├б├м ┬в Vegas.
 echo.
 echo.
-echo                                                           %COL%[34m%COL%[1mBlur Настройки%COL%[0m
+echo                                                           %COL%[34m%COL%[1mBlur ┬Н┬а├б├в├а┬о┬й┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[ %COL%[37m7 %COL%[33m]%COL%[37m Install/Update Blur            %COL%[33m[ %COL%[37m8 %COL%[33m]%COL%[37m FPS Games                      %COL%[33m[ %COL%[37m9 %COL%[33m]%COL%[37m Minecraft
-echo              %COL%[90mАвтомвтическая установка или         %COL%[90mАвтоматическая настройка Blur        %COL%[90mавтоматическая настройка Blur 
-echo              %COL%[90mобновление Blur.                     %COL%[90mдля FPS шутеров.                     %COL%[90mдля записи с высоким fps.
+echo              %COL%[90mтВм┬в├в┬о┬м┬в├в┬и├з┬е├б┬к┬а├п ├г├б├в┬а┬н┬о┬в┬к┬а ┬и┬л┬и         %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬а├п ┬н┬а├б├в├а┬о┬й┬к┬а Blur        %COL%[90m┬а┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬а├п ┬н┬а├б├в├а┬о┬й┬к┬а Blur 
+echo              %COL%[90m┬о┬б┬н┬о┬в┬л┬е┬н┬и┬е Blur.                     %COL%[90m┬д┬л├п FPS ├и├г├в┬е├а┬о┬в.                     %COL%[90m┬д┬л├п ┬з┬а┬п┬и├б┬и ├б ┬в├л├б┬о┬к┬и┬м fps.
 echo.
 echo.
 echo                                                           %COL%[34m%COL%[1mVideo Editor Settings%COL%[0m
 echo.
 echo              %COL%[33m[ %COL%[37m10 %COL%[33m]%COL%[37m Install A Video Editor (NLE)  %COL%[33m[ %COL%[37m11 %COL%[33m]%COL%[37m Project Settings              %COL%[33m[ %COL%[37m12 %COL%[33m]%COL%[37m Renders
-echo              %COL%[90mСкачать и установить  		   %COL%[90mАвтоматичесике настройки проекта   %COL%[90mАвтоматические настройки рендера
-echo		     %COL%[90mНе линейный софт для эдита.           %COL%[90mдля Vegas pro                      %COL%[90mдля Vegas pro
+echo              %COL%[90mтАШ┬к┬а├з┬а├в├м ┬и ├г├б├в┬а┬н┬о┬в┬и├в├м  		   %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬и┬к┬е ┬н┬а├б├в├а┬о┬й┬к┬и ┬п├а┬о┬е┬к├в┬а   %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬и┬е ┬н┬а├б├в├а┬о┬й┬к┬и ├а┬е┬н┬д┬е├а┬а
+echo		     %COL%[90m┬Н┬е ┬л┬и┬н┬е┬й┬н├л┬й ├б┬о├д├в ┬д┬л├п ├н┬д┬и├в┬а.           %COL%[90m┬д┬л├п Vegas pro                      %COL%[90m┬д┬л├п Vegas pro
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" call:OBSInstall
 if /i "%choice%"=="2" goto Recording
 if /i "%choice%"=="3" goto Streaming
@@ -1741,9 +1741,9 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo              %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m Качество                       %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m Оптимальный                    %COL%[33m[ %COL%[37m3 %COL%[33m]%COL%[37m Производительный
-echo              %COL%[90mНастроить для лучшего                %COL%[90mХорошая производительность           %COL%[90mНастроить для максимальной
-echo              %COL%[90mкачества в OBS.                      %COL%[90mс минимальными протерями.            %COL%[90mпроизводительности в OBS.
+echo              %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m ┼а┬а├з┬е├б├в┬в┬о                       %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m ┼╜┬п├в┬и┬м┬а┬л├м┬н├л┬й                    %COL%[33m[ %COL%[37m3 %COL%[33m]%COL%[37m ┬П├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л├м┬н├л┬й
+echo              %COL%[90m┬Н┬а├б├в├а┬о┬и├в├м ┬д┬л├п ┬л├г├з├и┬е┬г┬о                %COL%[90mтАв┬о├а┬о├и┬а├п ┬п├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л├м┬н┬о├б├в├м           %COL%[90m┬Н┬а├б├в├а┬о┬и├в├м ┬д┬л├п ┬м┬а┬к├б┬и┬м┬а┬л├м┬н┬о┬й
+echo              %COL%[90m┬к┬а├з┬е├б├в┬в┬а ┬в OBS.                      %COL%[90m├б ┬м┬и┬н┬и┬м┬а┬л├м┬н├л┬м┬и ┬п├а┬о├в┬е├а├п┬м┬и.            %COL%[90m┬п├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л├м┬н┬о├б├в┬и ┬в OBS.
 echo.
 echo.
 echo.
@@ -1766,9 +1766,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto Quality
 if /i "%choice%"=="2" goto Optimal
 if /i "%choice%"=="3" goto Performance
@@ -2204,9 +2204,9 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                              %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m Качество                                       %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m Производительность
-echo                              %COL%[90mНастроить для лучшего                                %COL%[90mНастройки для максимальной
-echo                              %COL%[90mкачества в OBS                                       %COL%[90mпроизводительности в OBS
+echo                              %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m ┼а┬а├з┬е├б├в┬в┬о                                       %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m ┬П├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л├м┬н┬о├б├в├м
+echo                              %COL%[90m┬Н┬а├б├в├а┬о┬и├в├м ┬д┬л├п ┬л├г├з├и┬е┬г┬о                                %COL%[90m┬Н┬а├б├в├а┬о┬й┬к┬и ┬д┬л├п ┬м┬а┬к├б┬и┬м┬а┬л├м┬н┬о┬й
+echo                              %COL%[90m┬к┬а├з┬е├б├в┬в┬а ┬в OBS                                       %COL%[90m┬п├а┬о┬и┬з┬в┬о┬д┬и├в┬е┬л├м┬н┬о├б├в┬и ┬в OBS
 echo.
 echo.
 echo.
@@ -2229,9 +2229,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto Quality
 if /i "%choice%"=="2" goto Performance
 if /i "%choice%"=="B" goto HoneRenders
@@ -2532,8 +2532,8 @@ echo.
 call :HoneTitle
 echo.
 echo                            %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m 4k                                             %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m 8k
-echo                            %COL%[90mПовысить качество видео                              %COL%[90mПовысить качество видео
-echo                            %COL%[90mдо 4k                                                %COL%[90mдо 8k
+echo                            %COL%[90m┬П┬о┬в├л├б┬и├в├м ┬к┬а├з┬е├б├в┬в┬о ┬в┬и┬д┬е┬о                              %COL%[90m┬П┬о┬в├л├б┬и├в├м ┬к┬а├з┬е├б├в┬в┬о ┬в┬и┬д┬е┬о
+echo                            %COL%[90m┬д┬о 4k                                                %COL%[90m┬д┬о 8k
 echo.
 echo.
 echo.
@@ -2556,9 +2556,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto 4k
 if /i "%choice%"=="2" goto 8k
 if /i "%choice%"=="B" goto HoneRenders
@@ -2637,8 +2637,8 @@ echo.
 call :HoneTitle
 echo.
 echo                         %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m Heavy                                          %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m Light
-echo                         %COL%[90mСжать видео чтобы занимало                     %COL%[90mСжать видео чтобы занимало 
-echo                         %COL%[90mменьше места                                         %COL%[90mменьше места
+echo                         %COL%[90mтАШ┬ж┬а├в├м ┬в┬и┬д┬е┬о ├з├в┬о┬б├л ┬з┬а┬н┬и┬м┬а┬л┬о                     %COL%[90mтАШ┬ж┬а├в├м ┬в┬и┬д┬е┬о ├з├в┬о┬б├л ┬з┬а┬н┬и┬м┬а┬л┬о 
+echo                         %COL%[90m┬м┬е┬н├м├и┬е ┬м┬е├б├в┬а                                         %COL%[90m┬м┬е┬н├м├и┬е ┬м┬е├б├в┬а
 echo.
 echo.
 echo.
@@ -2661,9 +2661,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto heavy
 if /i "%choice%"=="2" goto light
 if /i "%choice%"=="B" goto HoneRenders
@@ -2730,8 +2730,8 @@ echo.
 call :HoneTitle
 echo.
 echo                    	     %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m Accurate                                   %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m Smooth
-echo                     	     %COL%[90mАвтоматическая настройка Blur                    %COL%[90mАвтоматическая настройка Blur
-echo                     	     %COL%[90mдля более лучшего результата.             	  %COL%[90mдля более плавного результата.
+echo                     	     %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬а├п ┬н┬а├б├в├а┬о┬й┬к┬а Blur                    %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬а├п ┬н┬а├б├в├а┬о┬й┬к┬а Blur
+echo                     	     %COL%[90m┬д┬л├п ┬б┬о┬л┬е┬е ┬л├г├з├и┬е┬г┬о ├а┬е┬з├г┬л├м├в┬а├в┬а.             	  %COL%[90m┬д┬л├п ┬б┬о┬л┬е┬е ┬п┬л┬а┬в┬н┬о┬г┬о ├а┬е┬з├г┬л├м├в┬а├в┬а.
 echo.
 echo.
 echo.
@@ -2754,9 +2754,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto Accurate
 if /i "%choice%"=="2" goto Smooth
 if /i "%choice%"=="B" goto HoneRenders
@@ -2770,8 +2770,8 @@ echo.
 call :HoneTitle
 echo.
 echo					%COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m 60-120FPS                                   %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m 240FPS+
-echo					%COL%[90mАвтоматическая настройка Blur		      %COL%[90mАвтоматическая настройка Blur
-echo					%COL%[90mдля 60-120FPS клипов				  %COL%[90mдля 240FPS+ клипов
+echo					%COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬а├п ┬н┬а├б├в├а┬о┬й┬к┬а Blur		      %COL%[90mтВм┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬а├п ┬н┬а├б├в├а┬о┬й┬к┬а Blur
+echo					%COL%[90m┬д┬л├п 60-120FPS ┬к┬л┬и┬п┬о┬в				  %COL%[90m┬д┬л├п 240FPS+ ┬к┬л┬и┬п┬о┬в
 echo.
 echo.
 echo.
@@ -2794,9 +2794,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto Accurate60120
 if /i "%choice%"=="2" goto Accurate240
 if /i "%choice%"=="B" goto FPSGames
@@ -2899,8 +2899,8 @@ echo.
 echo.
 echo.
 echo            	   %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m Any			%COL%[33m[%COL%[37m 2 %COL%[33m]%COL%[37m 240-360FPS			%COL%[33m[%COL%[37m 3 %COL%[33m]%COL%[37m 480FPS+
-echo			   %COL%[90mАвто настройка Blur          %COL%[90mАвто настройка Blur    	 	    %COL%[90mАвто настройка Blur
-echo			   %COL%[90mдля всех клипов        	%COL%[90mдля 240-360FPS клипов            	%COL%[90mдля 480FPS+ клипов
+echo			   %COL%[90mтВм┬в├в┬о ┬н┬а├б├в├а┬о┬й┬к┬а Blur          %COL%[90mтВм┬в├в┬о ┬н┬а├б├в├а┬о┬й┬к┬а Blur    	 	    %COL%[90mтВм┬в├в┬о ┬н┬а├б├в├а┬о┬й┬к┬а Blur
+echo			   %COL%[90m┬д┬л├п ┬в├б┬е├е ┬к┬л┬и┬п┬о┬в        	%COL%[90m┬д┬л├п 240-360FPS ┬к┬л┬и┬п┬о┬в            	%COL%[90m┬д┬л├п 480FPS+ ┬к┬л┬и┬п┬о┬в
 echo.
 echo.
 echo.
@@ -2923,9 +2923,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto MinecraftAny
 if /i "%choice%"=="2" goto Minecraft240360
 if /i "%choice%"=="B" goto Minecraft480
@@ -3032,16 +3032,13 @@ cls
 echo.
 echo.
 call :HoneTitle
-echo                       %COL%[90mК сожалению, Hone не может дать пиратскую версию программы. Если вы
-echo                       %COL%[90mне можете купить Vegas Pro, есть беспланая альтернатива!
-echo                       %COL%[90mназывается 'DaVinci Resolve' (note: эта программа не содержит настроек рендеринга)^^!
+echo                       %COL%[90m┼а ├б┬о┬ж┬а┬л┬е┬н┬и├о, Hone ┬н┬е ┬м┬о┬ж┬е├в ┬д┬а├в├м ┬п┬и├а┬а├в├б┬к├г├о ┬в┬е├а├б┬и├о ┬п├а┬о┬г├а┬а┬м┬м├л. тАж├б┬л┬и ┬в├л
+echo                       %COL%[90m┬н┬е ┬м┬о┬ж┬е├в┬е ┬к├г┬п┬и├в├м Vegas Pro, ┬е├б├в├м ┬б┬е├б┬п┬л┬а┬н┬а├п ┬а┬л├м├в┬е├а┬н┬а├в┬и┬в┬а!
+echo                       %COL%[90m┬н┬а┬з├л┬в┬а┬е├в├б├п 'DaVinci Resolve' (note: ├н├в┬а ┬п├а┬о┬г├а┬а┬м┬м┬а ┬н┬е ├б┬о┬д┬е├а┬ж┬и├в ┬н┬а├б├в├а┬о┬е┬к ├а┬е┬н┬д┬е├а┬и┬н┬г┬а)^^!
 echo.
 echo.
-echo                           %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m Сайт Vegas Pro                           %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m Сайт DaVinci Resolve
-echo                           %COL%[90mПлатно с поддерживаемыми рендерами             %COL%[90mБесплатные, но неподдерживаемые рендеры
-echo.
-echo.
-echo.
+echo                           %COL%[33m[ %COL%[37m1 %COL%[33m]%COL%[37m тАШ┬а┬й├в Vegas Pro                           %COL%[33m[ %COL%[37m2 %COL%[33m]%COL%[37m тАШ┬а┬й├в DaVinci Resolve
+echo                           %COL%[90m┬П┬л┬а├в┬н┬о ├б ┬п┬о┬д┬д┬е├а┬ж┬и┬в┬а┬е┬м├л┬м┬и ├а┬е┬н┬д┬е├а┬а┬м┬и             %COL%[90m┬Б┬е├б┬п┬л┬а├в┬н├л┬е, ┬н┬о ┬н┬е┬п┬о┬д┬д┬е├а┬ж┬и┬в┬а┬е┬м├л┬е ├а┬е┬н┬д┬е├а├л
 echo.
 echo.
 echo.
@@ -3058,9 +3055,12 @@ echo.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+echo.
+echo.
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
+echo.
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" start https://www.vegascreativesoftware.com/us/vegas-pro/
 if /i "%choice%"=="2" start https://www.blackmagicdesign.com/products/davinciresolve
 if /i "%choice%"=="B" goto HoneRenders
@@ -3102,7 +3102,7 @@ mkdir "%APPDATA%\VEGAS\Render Templates\avc" >nul 2>&1
 curl -g -k -L -# -o "%APPDATA%\VEGAS\Render Templates\avc\Hone.sft2" "https://cdn.discordapp.com/attachments/934698794933702666/987166340714471514/Hone.sft2"
 goto HoneRenders
 :NoVegas
-echo Vegas Pro 17-19 не установлен...
+echo Vegas Pro 17-19 ┬н┬е ├г├б├в┬а┬н┬о┬в┬л┬е┬н...
 pause
 goto HoneRenders
 
@@ -3113,22 +3113,22 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
-echo %COL%[91m  ВНИМАНИЕ:
+echo %COL%[91m  тАЪ┬Н╦Ж┼ТтВм┬Н╦ЖтАж:
 echo.
-echo     %COL%[33m1.%COL%[37m Эти настройки ОЧЕНЬ экспериментальны, мы это %COL%[91mне%COL%[37m рекомендуем, если вы не знаете, что делаете!
+echo     %COL%[33m1.%COL%[37m ┬Э├в┬и ┬н┬а├б├в├а┬о┬й┬к┬и ┼╜тАФтАж┬Н┼У ├н┬к├б┬п┬е├а┬и┬м┬е┬н├в┬а┬л├м┬н├л, ┬м├л ├н├в┬о %COL%[91m┬н┬е%COL%[37m ├а┬е┬к┬о┬м┬е┬н┬д├г┬е┬м, ┬е├б┬л┬и ┬в├л ┬н┬е ┬з┬н┬а┬е├в┬е, ├з├в┬о ┬д┬е┬л┬а┬е├в┬е!
 echo.
-echo     %COL%[33m1.%COL%[37m Все "используйте на свой страх и риск", мы %COL%[91mНЕ НЕСЕМ ОТВЕТСТВЕННОСТИ%COL%[37m Если вы каким-либо образом повредите свою систему.
+echo     %COL%[33m1.%COL%[37m тАЪ├б┬е "┬и├б┬п┬о┬л├м┬з├г┬й├в┬е ┬н┬а ├б┬в┬о┬й ├б├в├а┬а├е ┬и ├а┬и├б┬к", ┬м├л %COL%[91m┬НтАж ┬НтАжтАШтАж┼Т ┼╜тАЩтАЪтАжтАЩтАШтАЩтАЪтАж┬Н┬Н┼╜тАШтАЩ╦Ж%COL%[37m тАж├б┬л┬и ┬в├л ┬к┬а┬к┬и┬м-┬л┬и┬б┬о ┬о┬б├а┬а┬з┬о┬м ┬п┬о┬в├а┬е┬д┬и├в┬е ├б┬в┬о├о ├б┬и├б├в┬е┬м├г.
 echo.
-echo     %COL%[33m1.%COL%[37m Несмотря на то, что у нас есть функция автоматической точки восстановления, мы %COL%[91mнастоятельно%COL%[37m рекомендуем самому создать точку востановления
+echo     %COL%[33m1.%COL%[37m ┬Н┬е├б┬м┬о├в├а├п ┬н┬а ├в┬о, ├з├в┬о ├г ┬н┬а├б ┬е├б├в├м ├д├г┬н┬к├ж┬и├п ┬а┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬о┬й ├в┬о├з┬к┬и ┬в┬о├б├б├в┬а┬н┬о┬в┬л┬е┬н┬и├п, ┬м├л %COL%[91m┬н┬а├б├в┬о├п├в┬е┬л├м┬н┬о%COL%[37m ├а┬е┬к┬о┬м┬е┬н┬д├г┬е┬м ├б┬а┬м┬о┬м├г ├б┬о┬з┬д┬а├в├м ├в┬о├з┬к├г ┬в┬о├б├в┬а┬н┬о┬в┬л┬е┬н┬и├п
 echo.
-echo     Введите "I agree" (без кавычек) чтобы продолжить:
+echo     тАЪ┬в┬е┬д┬и├в┬е "I agree" (┬б┬е┬з ┬к┬а┬в├л├з┬е┬к) ├з├в┬о┬б├л ┬п├а┬о┬д┬о┬л┬ж┬и├в├м:
 echo.
-echo                                                        %COL%[90m[ B назад ]
+echo                                                        %COL%[90m[ B ┬н┬а┬з┬а┬д ]
 echo.
 set /p "input=%DEL%                                                            >: %COL%[92m"
 if /i "!input!"=="B" goto TweaksPG3
@@ -3178,35 +3178,35 @@ cls
 echo.
 echo.
 call :HoneTitle
-echo                                                           %COL%[1;4;34mИнтернет твики%COL%[0m
+echo                                                           %COL%[1;4;34m╦Ж┬н├в┬е├а┬н┬е├в ├в┬в┬и┬к┬и%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 1 %COL%[33m]%COL%[37m Disable Task Offloading %TOFOF%    %COL%[33m[%COL%[37m 2 %COL%[33m]%COL%[37m NonBestEffortLimit %NONOF%         %COL%[33m[%COL%[37m 3 %COL%[33m]%COL%[37m AutoTuning %AUTOF%
-echo              %COL%[90mНазначение GPU для обработки         %COL%[90mВыделить больше скооости для прилож. %COL%[90mМожет уменьшить буфера,
-echo              %COL%[90mнагрузки сетевого адаптера.          %COL%[90mИспользовать при быстром интернете.  %COL%[90mно снизить скорость сети.
+echo              %COL%[90m┬Н┬а┬з┬н┬а├з┬е┬н┬и┬е GPU ┬д┬л├п ┬о┬б├а┬а┬б┬о├в┬к┬и         %COL%[90mтАЪ├л┬д┬е┬л┬и├в├м ┬б┬о┬л├м├и┬е ├б┬к┬о┬о┬о├б├в┬и ┬д┬л├п ┬п├а┬и┬л┬о┬ж. %COL%[90m┼Т┬о┬ж┬е├в ├г┬м┬е┬н├м├и┬и├в├м ┬б├г├д┬е├а┬а,
+echo              %COL%[90m┬н┬а┬г├а├г┬з┬к┬и ├б┬е├в┬е┬в┬о┬г┬о ┬а┬д┬а┬п├в┬е├а┬а.          %COL%[90m╦Ж├б┬п┬о┬л├м┬з┬о┬в┬а├в├м ┬п├а┬и ┬б├л├б├в├а┬о┬м ┬и┬н├в┬е├а┬н┬е├в┬е.  %COL%[90m┬н┬о ├б┬н┬и┬з┬и├в├м ├б┬к┬о├а┬о├б├в├м ├б┬е├в┬и.
 echo.
 echo                           %COL%[33m[%COL%[37m 4 %COL%[33m]%COL%[37m DSCP Value %DSCOF%                      %COL%[33m[%COL%[37m 5 %COL%[33m]%COL%[37m Wi-fi Congestion Provider %CONG%
-echo                           %COL%[90mУстанавливает приоритет сети              %COL%[91mВключайте, только если у вас есть Wi-Fi.
-echo                           %COL%[90mдля быстрой отправки пакетов.             %COL%[90mИзменяет алгоритм обработки данных.
+echo                           %COL%[90mтАЬ├б├в┬а┬н┬а┬в┬л┬и┬в┬а┬е├в ┬п├а┬и┬о├а┬и├в┬е├в ├б┬е├в┬и              %COL%[91mтАЪ┬к┬л├о├з┬а┬й├в┬е, ├в┬о┬л├м┬к┬о ┬е├б┬л┬и ├г ┬в┬а├б ┬е├б├в├м Wi-Fi.
+echo                           %COL%[90m┬д┬л├п ┬б├л├б├в├а┬о┬й ┬о├в┬п├а┬а┬в┬к┬и ┬п┬а┬к┬е├в┬о┬в.             %COL%[90m╦Ж┬з┬м┬е┬н├п┬е├в ┬а┬л┬г┬о├а┬и├в┬м ┬о┬б├а┬а┬б┬о├в┬к┬и ┬д┬а┬н┬н├л├е.
 echo.
 echo.
 echo                                                            %COL%[1;4;34mPower Tweaks%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 6 %COL%[33m]%COL%[37m Disable C-States %CS0OF%           %COL%[33m[%COL%[37m 7 %COL%[33m]%COL%[37m PStates 0 %PS0OF%                  %COL%[33m[%COL%[37m 8 %COL%[33m]%COL%[37m Disable Idle %IDLOF%
-echo              %COL%[90mОтключить тротлинг процессора.       %COL%[90mЗапустить видеокарту на              %COL%[90mЗаставить CPU всегда работать
-echo              %COL%[90mВаш ПК начнёт сильнее греться.       %COL%[90mмаксимальных частотах.               %COL%[90mна максималках.
+echo              %COL%[90m┼╜├в┬к┬л├о├з┬и├в├м ├в├а┬о├в┬л┬и┬н┬г ┬п├а┬о├ж┬е├б├б┬о├а┬а.       %COL%[90mтАб┬а┬п├г├б├в┬и├в├м ┬в┬и┬д┬е┬о┬к┬а├а├в├г ┬н┬а              %COL%[90mтАб┬а├б├в┬а┬в┬и├в├м CPU ┬в├б┬е┬г┬д┬а ├а┬а┬б┬о├в┬а├в├м
+echo              %COL%[90mтАЪ┬а├и ┬П┼а ┬н┬а├з┬н├▒├в ├б┬и┬л├м┬н┬е┬е ┬г├а┬е├в├м├б├п.       %COL%[90m┬м┬а┬к├б┬и┬м┬а┬л├м┬н├л├е ├з┬а├б├в┬о├в┬а├е.               %COL%[90m┬н┬а ┬м┬а┬к├б┬и┬м┬а┬л┬к┬а├е.
 echo.
 echo.
 echo                                                            %COL%[1;4;34mOther Tweaks%COL%[0m
 echo.
 echo              %COL%[33m[%COL%[37m 9 %COL%[33m]%COL%[37m Nvidia Driver %DRIOF%              %COL%[33m[%COL%[37m 10 %COL%[33m]%COL%[37m BCDEdit %BCDOF%                   %COL%[33m[%COL%[37m 11 %COL%[33m]%COL%[37m Disable USB Power Savings %DPSOF%
-echo              %COL%[90mУстановить кастомнвй драйвер Nvidia. %COL%[90mИзменить конфиг загрузки Windows     %COL%[90mОтключить экономию энергии USB,
-echo              %COL%[90mТоже самое что и NVclenstall.        %COL%[90mдо оптимальных настроек.             %COL%[90mчто понизит задержку.
+echo              %COL%[90mтАЬ├б├в┬а┬н┬о┬в┬и├в├м ┬к┬а├б├в┬о┬м┬н┬в┬й ┬д├а┬а┬й┬в┬е├а Nvidia. %COL%[90m╦Ж┬з┬м┬е┬н┬и├в├м ┬к┬о┬н├д┬и┬г ┬з┬а┬г├а├г┬з┬к┬и Windows     %COL%[90m┼╜├в┬к┬л├о├з┬и├в├м ├н┬к┬о┬н┬о┬м┬и├о ├н┬н┬е├а┬г┬и┬и USB,
+echo              %COL%[90mтАЩ┬о┬ж┬е ├б┬а┬м┬о┬е ├з├в┬о ┬и NVclenstall.        %COL%[90m┬д┬о ┬о┬п├в┬и┬м┬а┬л├м┬н├л├е ┬н┬а├б├в├а┬о┬е┬к.             %COL%[90m├з├в┬о ┬п┬о┬н┬и┬з┬и├в ┬з┬а┬д┬е├а┬ж┬к├г.
 echo.
 echo.
 echo.
-echo                                                  %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                  %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-set /p choice="%DEL%                                        %COL%[37mВыберите соответствующий номер для опций выше > "
+set /p choice="%DEL%                                        %COL%[37mтАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 if /i "%choice%"=="1" goto TaskOffloading
 if /i "%choice%"=="2" goto NonBestEffortLimit
 if /i "%choice%"=="3" goto Autotuning
@@ -3300,17 +3300,17 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
-echo %COL%[91m  ВНИМАНИЕ:
-echo %COL%[91m  Эта настройка предназначена только для пользователей Wi-Fi, если вы подключены к Ethernet, не трогайте эту настройку.
+echo %COL%[91m  тАЪ┬Н╦Ж┼ТтВм┬Н╦ЖтАж:
+echo %COL%[91m  ┬Э├в┬а ┬н┬а├б├в├а┬о┬й┬к┬а ┬п├а┬е┬д┬н┬а┬з┬н┬а├з┬е┬н┬а ├в┬о┬л├м┬к┬о ┬д┬л├п ┬п┬о┬л├м┬з┬о┬в┬а├в┬е┬л┬е┬й Wi-Fi, ┬е├б┬л┬и ┬в├л ┬п┬о┬д┬к┬л├о├з┬е┬н├л ┬к Ethernet, ┬н┬е ├в├а┬о┬г┬а┬й├в┬е ├н├в├г ┬н┬а├б├в├а┬о┬й┬к├г.
 echo.
-echo   %COL%[37mПо любым вопросам и / или озабоченностям, пожалуйста, присоединяйтесь к нашему дискорду: discord.gg/hone
+echo   %COL%[37m┬П┬о ┬л├о┬б├л┬м ┬в┬о┬п├а┬о├б┬а┬м ┬и / ┬и┬л┬и ┬о┬з┬а┬б┬о├з┬е┬н┬н┬о├б├в├п┬м, ┬п┬о┬ж┬а┬л├г┬й├б├в┬а, ┬п├а┬и├б┬о┬е┬д┬и┬н├п┬й├в┬е├б├м ┬к ┬н┬а├и┬е┬м├г ┬д┬и├б┬к┬о├а┬д├г: discord.gg/hone
 echo.
-echo   %COL%[37mВведите "I understand" без кавычек, чтобы продолжить:
+echo   %COL%[37mтАЪ┬в┬е┬д┬и├в┬е "I understand" ┬б┬е┬з ┬к┬а┬в├л├з┬е┬к, ├з├в┬о┬б├л ┬п├а┬о┬д┬о┬л┬ж┬и├в├м:
 echo.
 echo.
 echo.
@@ -3551,10 +3551,10 @@ echo         %@@@       @@@@@@@       @@@       @@@       @@@@@@@       @@@
 echo         %@@@   @@@@   @@@@   @@@@          @@@    @@@    @@@    @@@
 echo         %@@@   @@@@   @@@@   @@@@          @@@    @@@    @@@    @@@
 echo             @@@           @@@                 @@@@          @@@@
-echo					      Привет!
+echo					      ┬П├а┬и┬в┬е├в!
 echo.
 echo.
-echo                  		  X чтобы закрыть
+echo                  		  X ├з├в┬о┬б├л ┬з┬а┬к├а├л├в├м
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:XD /n /m "%DEL% ..."
 set choice=%errorlevel%
@@ -3564,16 +3564,16 @@ goto dog
 
 :dog2
 cls
-echo Значит, ты хочешь еще собаку?
+echo тАб┬н┬а├з┬и├в, ├в├л ├е┬о├з┬е├и├м ┬е├й┬е ├б┬о┬б┬а┬к├г?
 timeout /t 3 >nul 2>&1
 cls
-echo У меня больше нет для тебя собак, извини
+echo тАЬ ┬м┬е┬н├п ┬б┬о┬л├м├и┬е ┬н┬е├в ┬д┬л├п ├в┬е┬б├п ├б┬о┬б┬а┬к, ┬и┬з┬в┬и┬н┬и
 timeout /t 3 >nul 2>&1
 cls
-echo Может быть, вернемся в другое время? Я принесу немного для тебя
+echo ┼Т┬о┬ж┬е├в ┬б├л├в├м, ┬в┬е├а┬н┬е┬м├б├п ┬в ┬д├а├г┬г┬о┬е ┬в├а┬е┬м├п? ┼╕ ┬п├а┬и┬н┬е├б├г ┬н┬е┬м┬н┬о┬г┬о ┬д┬л├п ├в┬е┬б├п
 timeout /t 3 >nul 2>&1
 cls
-echo Пока
+echo ┬П┬о┬к┬а
 timeout /t 2  >nul 2>&1
 exit /b
 
@@ -3603,8 +3603,8 @@ echo                  %COL%[33m[ %COL%[37m1 %COL%[33m] %COL%[37mAbout           
 echo.
 echo.
 echo                  %COL%[33m[ %COL%[37m3 %COL%[33m] %COL%[37mBackup                                                  %COL%[33m[ %COL%[37m4 %COL%[33m] %COL%[37mDiscord
-echo                  %COL%[90mБэкап вашего реестера и создпния точки
-echo                  %COL%[90mвостановления для отмены настроек.
+echo                  %COL%[90m┬Б├н┬к┬а┬п ┬в┬а├и┬е┬г┬о ├а┬е┬е├б├в┬е├а┬а ┬и ├б┬о┬з┬д┬п┬н┬и├п ├в┬о├з┬к┬и
+echo                  %COL%[90m┬в┬о├б├в┬а┬н┬о┬в┬л┬е┬н┬и├п ┬д┬л├п ┬о├в┬м┬е┬н├л ┬н┬а├б├в├а┬о┬е┬к.
 echo.
 echo.
 echo                  %COL%[33m[ %COL%[37m5 %COL%[33m] %COL%[37mCredits
@@ -3619,9 +3619,9 @@ echo.
 echo.
 echo.
 echo.
-echo                                                     %COL%[90m[ B назад ]         %COL%[31m[ X закрыть ]%COL%[37m
+echo                                                     %COL%[90m[ B ┬н┬а┬з┬а┬д ]         %COL%[31m[ X ┬з┬а┬к├а├л├в├м ]%COL%[37m
 echo.
-%SYSTEMROOT%\System32\choice.exe /c:12345BX /n /m "%DEL%                                        Выберите соответствующий номер для опций выше > "
+%SYSTEMROOT%\System32\choice.exe /c:12345BX /n /m "%DEL%                                        тАЪ├л┬б┬е├а┬и├в┬е ├б┬о┬о├в┬в┬е├в├б├в┬в├г├о├й┬и┬й ┬н┬о┬м┬е├а ┬д┬л├п ┬о┬п├ж┬и┬й ┬в├л├и┬е > "
 set choice=%errorlevel%
 if "%choice%"=="1" goto About
 if "%choice%"=="2" goto ViewDisclaimer
@@ -3635,11 +3635,11 @@ goto More
 :About
 cls
 echo About
-echo Принадлежит компании Aura Side, Inc. Заявлено авторское право.
-echo Это графический интерфейс для ручных настроек Hone.
-echo Переведенно By Parad1st. Discord - https://discord.gg/szfg8Mshy YouTube - https://clck.ru/35MF6Z
+echo ┬П├а┬и┬н┬а┬д┬л┬е┬ж┬и├в ┬к┬о┬м┬п┬а┬н┬и┬и Aura Side, Inc. тАб┬а├п┬в┬л┬е┬н┬о ┬а┬в├в┬о├а├б┬к┬о┬е ┬п├а┬а┬в┬о.
+echo ┬Э├в┬о ┬г├а┬а├д┬и├з┬е├б┬к┬и┬й ┬и┬н├в┬е├а├д┬е┬й├б ┬д┬л├п ├а├г├з┬н├л├е ┬н┬а├б├в├а┬о┬е┬к Hone.
+echo ┬П┬е├а┬е┬в┬е┬д┬е┬н┬н┬о By Parad1st. Discord - https://discord.gg/szfg8Mshy YouTube - https://clck.ru/35MF6Z
 echo.
-call :ColorText 8 "                                                      [ нажмите X чтобы вернуться ]"
+call :ColorText 8 "                                                      [ ┬н┬а┬ж┬м┬и├в┬е X ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ]"
 echo.
 echo.
 echo.
@@ -3653,28 +3653,28 @@ echo.
 echo.
 call :HoneTitle
 echo.
-echo                                        %COL%[90m HoneCtrl это бесплатная  утилита с открытым исходным кодом
-echo                                        %COL%[90m   создано для повышения вашей повседневной продуктивности
+echo                                        %COL%[90m HoneCtrl ├н├в┬о ┬б┬е├б┬п┬л┬а├в┬н┬а├п  ├г├в┬и┬л┬и├в┬а ├б ┬о├в┬к├а├л├в├л┬м ┬и├б├е┬о┬д┬н├л┬м ┬к┬о┬д┬о┬м
+echo                                        %COL%[90m   ├б┬о┬з┬д┬а┬н┬о ┬д┬л├п ┬п┬о┬в├л├и┬е┬н┬и├п ┬в┬а├и┬е┬й ┬п┬о┬в├б┬е┬д┬н┬е┬в┬н┬о┬й ┬п├а┬о┬д├г┬к├в┬и┬в┬н┬о├б├в┬и
 echo.
 echo.
 echo.
-echo %COL%[91m  ВНИМАНИЕ:
-echo %COL%[37m  Пожалуйста, обратите внимание, что мы не можем гарантировать повышение FPS за счет применения наших оптимизаций, каждая система + конфигурация отличается.
+echo %COL%[91m  тАЪ┬Н╦Ж┼ТтВм┬Н╦ЖтАж:
+echo %COL%[37m  ┬П┬о┬ж┬а┬л├г┬й├б├в┬а, ┬о┬б├а┬а├в┬и├в┬е ┬в┬н┬и┬м┬а┬н┬и┬е, ├з├в┬о ┬м├л ┬н┬е ┬м┬о┬ж┬е┬м ┬г┬а├а┬а┬н├в┬и├а┬о┬в┬а├в├м ┬п┬о┬в├л├и┬е┬н┬и┬е FPS ┬з┬а ├б├з┬е├в ┬п├а┬и┬м┬е┬н┬е┬н┬и├п ┬н┬а├и┬и├е ┬о┬п├в┬и┬м┬и┬з┬а├ж┬и┬й, ┬к┬а┬ж┬д┬а├п ├б┬и├б├в┬е┬м┬а + ┬к┬о┬н├д┬и┬г├г├а┬а├ж┬и├п ┬о├в┬л┬и├з┬а┬е├в├б├п.
 echo.
-echo     %COL%[33m1.%COL%[37m Все делается "на свой страх и риск", мы %COL%[91mНЕ НЕСЁМ ОТВЕТСТВЕННОСТИ%COL%[37m если вы каким-либо образом повредите свою систему
-echo        (например, несоблюдение требований об отказе от ответственности).
+echo     %COL%[33m1.%COL%[37m тАЪ├б┬е ┬д┬е┬л┬а┬е├в├б├п "┬н┬а ├б┬в┬о┬й ├б├в├а┬а├е ┬и ├а┬и├б┬к", ┬м├л %COL%[91m┬НтАж ┬НтАжтАШ├░┼Т ┼╜тАЩтАЪтАжтАЩтАШтАЩтАЪтАж┬Н┬Н┼╜тАШтАЩ╦Ж%COL%[37m ┬е├б┬л┬и ┬в├л ┬к┬а┬к┬и┬м-┬л┬и┬б┬о ┬о┬б├а┬а┬з┬о┬м ┬п┬о┬в├а┬е┬д┬и├в┬е ├б┬в┬о├о ├б┬и├б├в┬е┬м├г
+echo        (┬н┬а┬п├а┬и┬м┬е├а, ┬н┬е├б┬о┬б┬л├о┬д┬е┬н┬и┬е ├в├а┬е┬б┬о┬в┬а┬н┬и┬й ┬о┬б ┬о├в┬к┬а┬з┬е ┬о├в ┬о├в┬в┬е├в├б├в┬в┬е┬н┬н┬о├б├в┬и).
 echo.
-echo     %COL%[33m2.%COL%[37m Если вы не знаете, что такое настройка, не используйте ее и обратитесь в нашу службу поддержки, чтобы получить дополнительную помощь.
+echo     %COL%[33m2.%COL%[37m тАж├б┬л┬и ┬в├л ┬н┬е ┬з┬н┬а┬е├в┬е, ├з├в┬о ├в┬а┬к┬о┬е ┬н┬а├б├в├а┬о┬й┬к┬а, ┬н┬е ┬и├б┬п┬о┬л├м┬з├г┬й├в┬е ┬е┬е ┬и ┬о┬б├а┬а├в┬и├в┬е├б├м ┬в ┬н┬а├и├г ├б┬л├г┬ж┬б├г ┬п┬о┬д┬д┬е├а┬ж┬к┬и, ├з├в┬о┬б├л ┬п┬о┬л├г├з┬и├в├м ┬д┬о┬п┬о┬л┬н┬и├в┬е┬л├м┬н├г├о ┬п┬о┬м┬о├й├м.
 echo.
-echo     %COL%[33m3.%COL%[37m Несмотря на то, что у нас есть функция автоматической точки восстановления, мы настоятельно рекомендуем создать её вручную.
+echo     %COL%[33m3.%COL%[37m ┬Н┬е├б┬м┬о├в├а├п ┬н┬а ├в┬о, ├з├в┬о ├г ┬н┬а├б ┬е├б├в├м ├д├г┬н┬к├ж┬и├п ┬а┬в├в┬о┬м┬а├в┬и├з┬е├б┬к┬о┬й ├в┬о├з┬к┬и ┬в┬о├б├б├в┬а┬н┬о┬в┬л┬е┬н┬и├п, ┬м├л ┬н┬а├б├в┬о├п├в┬е┬л├м┬н┬о ├а┬е┬к┬о┬м┬е┬н┬д├г┬е┬м ├б┬о┬з┬д┬а├в├м ┬е├▒ ┬в├а├г├з┬н├г├о.
 echo.
-echo   По любым вопросам и / или озабоченностям, пожалуйста, присоединяйтесь к нашему дискорду: discord.gg/hone
+echo   ┬П┬о ┬л├о┬б├л┬м ┬в┬о┬п├а┬о├б┬а┬м ┬и / ┬и┬л┬и ┬о┬з┬а┬б┬о├з┬е┬н┬н┬о├б├в├п┬м, ┬п┬о┬ж┬а┬л├г┬й├б├в┬а, ┬п├а┬и├б┬о┬е┬д┬и┬н├п┬й├в┬е├б├м ┬к ┬н┬а├и┬е┬м├г ┬д┬и├б┬к┬о├а┬д├г: discord.gg/hone
 echo.
-echo   Введите "I agree" без кавычек чтобы продолжить:
+echo   тАЪ┬в┬е┬д┬и├в┬е "I agree" ┬б┬е┬з ┬к┬а┬в├л├з┬е┬к ├з├в┬о┬б├л ┬п├а┬о┬д┬о┬л┬ж┬и├в├м:
 echo.
 echo.
 echo.
-echo                                                         [ нажмите X чтобы вернуться ]
+echo                                                         [ ┬н┬а┬ж┬м┬и├в┬е X ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ]
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:X /n /m "%DEL%                                                                 >:"
 set choice=%errorlevel%
@@ -3725,7 +3725,7 @@ echo %COL%[97m                                                          nssm - (
 echo.
 echo.
 echo.
-call :ColorText 8 "                                                     [ нажмите B чтобы вернуться ]"
+call :ColorText 8 "                                                     [ ┬н┬а┬ж┬м┬и├в┬е B ├з├в┬о┬б├л ┬в┬е├а┬н├г├в├м├б├п ]"
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:B /n /m "%DEL%                                                               >:"
 set choice=%errorlevel%
@@ -3795,10 +3795,10 @@ cls
 color 06
 echo.
 echo  --------------------------------------------------------------
-echo                    Эта настройка неприменима
+echo                    ┬Э├в┬а ┬н┬а├б├в├а┬о┬й┬к┬а ┬н┬е┬п├а┬и┬м┬е┬н┬и┬м┬а
 echo  --------------------------------------------------------------
 echo.
-echo      Вы не можете использовать эту оптимизацию
+echo      тАЪ├л ┬н┬е ┬м┬о┬ж┬е├в┬е ┬и├б┬п┬о┬л├м┬з┬о┬в┬а├в├м ├н├в├г ┬о┬п├в┬и┬м┬и┬з┬а├ж┬и├о
 echo.
 echo      %~1
 echo.
@@ -3822,17 +3822,17 @@ Mode 65,16
 color 06
 echo.
 echo  --------------------------------------------------------------
-echo               Перезапустите для полного применения
+echo               ┬П┬е├а┬е┬з┬а┬п├г├б├в┬и├в┬е ┬д┬л├п ┬п┬о┬л┬н┬о┬г┬о ┬п├а┬и┬м┬е┬н┬е┬н┬и├п
 echo  --------------------------------------------------------------
 echo.
-echo      Для %ed% %~1 вам необходимо перезагрузиться,
-echo      хотели бы вы перезагрузиться сейчас?
+echo      тАЮ┬л├п %ed% %~1 ┬в┬а┬м ┬н┬е┬о┬б├е┬о┬д┬и┬м┬о ┬п┬е├а┬е┬з┬а┬г├а├г┬з┬и├в├м├б├п,
+echo      ├е┬о├в┬е┬л┬и ┬б├л ┬в├л ┬п┬е├а┬е┬з┬а┬г├а├г┬з┬и├в├м├б├п ├б┬е┬й├з┬а├б?
 echo.
 echo.
 echo.
 echo.
-echo      [Y] Да
-echo      [N] Нет
+echo      [Y] тАЮ┬а
+echo      [N] ┬Н┬е├в
 echo.
 :restartchoice
 set /p choice=Would you like to continue and restart your PC? Y or N?: 
@@ -3962,12 +3962,12 @@ echo.
 echo.
 echo.
 echo.
-echo                                                   %COL%[37m Настройки были применены
+echo                                                   %COL%[37m ┬Н┬а├б├в├а┬о┬й┬к┬и ┬б├л┬л┬и ┬п├а┬и┬м┬е┬н┬е┬н├л
 echo.
 echo.
 echo.
 echo.
-echo                                                          %COL%[90m[ B назад ]%COL%[37m
+echo                                                          %COL%[90m[ B ┬н┬а┬з┬а┬д ]%COL%[37m
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:B /n /m "%DEL%                                                               >:"
 goto Auto
@@ -4175,12 +4175,12 @@ echo.
 echo.
 echo.
 echo.
-echo                                                   %COL%[37m Настройки были применены
+echo                                                   %COL%[37m ┬Н┬а├б├в├а┬о┬й┬к┬и ┬б├л┬л┬и ┬п├а┬и┬м┬е┬н┬е┬н├л
 echo.
 echo.
 echo.
 echo.
-echo                                                          %COL%[90m[ B назад ]%COL%[37m
+echo                                                          %COL%[90m[ B ┬н┬а┬з┬а┬д ]%COL%[37m
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:B /n /m "%DEL%                                                               >:"
 goto Manual
@@ -4197,5 +4197,5 @@ taskkill /f /im explorer.exe >nul 2>&1
 cd %SYSTEMROOT% >nul 2>&1
 start explorer.exe >nul 2>&1
 goto Aesthetics
-echo Перевенно парадистом
+echo ┬П┬е├а┬е┬в┬е┬н┬н┬о ┬п┬а├а┬а┬д┬и├б├в┬о┬м
 goto :eof
