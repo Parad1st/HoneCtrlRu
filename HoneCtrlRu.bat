@@ -3709,10 +3709,9 @@ echo %COL%[97m                                                     miniant - (RE
 echo %COL%[97m                                                          nssm - (Iain Patterson)
 echo.
 echo %COL%[97m                                                          Translate
-echo %COL%[97m                                                        Parad1st (https://github.com/Parad1st)
+echo %COL%[97m                                                       Parad1st (https://github.com/Parad1st)
 echo.
-echo.
-call :ColorText 8 "                                                     [ нажмите B чтобы вернуться ]"
+echo.                                                     [ нажмите B чтобы вернуться ]"
 echo.
 %SYSTEMROOT%\System32\choice.exe /c:B /n /m "%DEL%                                                               >:"
 set choice=%errorlevel%
