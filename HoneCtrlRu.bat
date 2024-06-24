@@ -3583,7 +3583,7 @@ cls
 echo Может быть, вернемся в другое время? Я принесу немного для тебя
 timeout /t 3 >nul 2>&1
 cls
-echo Пока
+echo Удачи:)
 timeout /t 2  >nul 2>&1
 exit /b
 
